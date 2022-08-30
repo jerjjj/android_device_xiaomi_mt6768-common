@@ -1,0 +1,4 @@
+# Allow platform_app to get vendor_mtk_gpu_prop
+get_prop(platform_app, vendor_mtk_gpu_prop)
+
+allow platform_app sysfs_fpsinfo:file rw_file_perms;

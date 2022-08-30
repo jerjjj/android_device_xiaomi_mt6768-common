@@ -1,0 +1,6 @@
+cc_library_shared {
+    name: "libwatermark_shim",
+    srcs: ["libwatermark_shim.cpp"],
+    shared_libs: ["libpiex"],
+    vendor: true
+}
